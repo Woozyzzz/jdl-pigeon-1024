@@ -1,5 +1,9 @@
 {
   "devDependencies": {
-    "cssnano": "^4.1.10"
+    "parcel": "^2.8.3"
+  },
+  "scripts": {
+    "serve": "parcel src/index.html --dist-dir development-dist",
+    "build": "parcel build src/index.html --public-url ./"
   }
 }
