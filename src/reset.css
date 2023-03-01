@@ -2,8 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all 0.5s ease-in-out;
 }
 *::before,
 *::after {
   box-sizing: 0;
+  transition: all 0.5s ease-in-out;
 }
