@@ -1,9 +1,9 @@
-p {
+.paragraph {
   height: 50vh;
   overflow: auto;
 }
 
-figure {
+.figure {
   height: 50vh;
   /* background: #62656c;
   position: relative; */
